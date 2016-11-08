@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home Property | Register</title>
+    <title>Home Property | Signin</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -48,35 +48,25 @@
             <div class="aa-signin-form">
               <div class="aa-signin-form-title">
                 <a class="aa-property-home" href="index.html">Property Home</a>
-                <h4>Create your account and Stay with us</h4>
+                <h4>Sign in to your account</h4>
               </div>
-              <form class="contactform" action="login/hello" method="post">
-                <div class="aa-single-field">
-                  <label for="name">First Name <span class="required">*</span></label>
-                  <input type="text" required="required" aria-required="true" value="" name="name">
-                </div>
-                <div class="aa-single-field">
-                  <label for="email">Last Name <span class="required">*</span></label>
-                  <input type="text" required="required" aria-required="true" value="" name="email">
-                </div>
+              <form class="contactform">
                 <div class="aa-single-field">
                   <label for="email">Email <span class="required">*</span></label>
                   <input type="email" required="required" aria-required="true" value="" name="email">
-                </div>
-                <div class="aa-single-field">
-                  <label for="name">Username <span class="required">*</span></label>
-                  <input type="text" required="required" aria-required="true" value="" name="name">
                 </div>
                 <div class="aa-single-field">
                   <label for="password">Password <span class="required">*</span></label>
                   <input type="password" name="password">
                 </div>
                 <div class="aa-single-field">
-                  <label for="confirm-password">Confirm Password <span class="required">*</span></label>
-                  <input type="password" name="confirm-password">
+                <label>
+                  <input type="checkbox"> Remember me
+                </label>
                 </div>
                 <div class="aa-single-submit">
-                  <input type="submit" value="Create Account" name="submit">
+                  <input type="submit" value="Send Message" class="aa-browse-btn" name="submit">
+                  <p>Don't Have A Account Yet? <a href="register.html">CREATE NOW!</a></p>
                 </div>
               </form>
             </div>
@@ -85,7 +75,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- jQuery library -->
   <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
@@ -99,7 +88,6 @@
 
   <!-- Custom js -->
   <script src="js/custom.js"></script>
-
 
 
   </body>

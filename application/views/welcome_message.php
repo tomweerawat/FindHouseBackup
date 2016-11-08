@@ -61,7 +61,7 @@
 
                 <div class="aa-header-right">
                   <a href="register.html" class="aa-register">Register</a>
-                  <a href="signin.html" class="aa-login">Login</a>
+                  <a href="#" class="aa-login">Login</a>
                 </div>
               </div>
             </div>
